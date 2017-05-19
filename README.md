@@ -1,4 +1,4 @@
-ES='http://localhost:8080'
+ES='http://localhost:9200'
 ESIDX='seunjeon-idx'
 curl -XDELETE "${ES}/${ESIDX}?pretty"
 sleep 1
